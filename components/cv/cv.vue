@@ -1,6 +1,6 @@
 <template lang="html">
   <b-container>
-    <h1>My cv</h1>
+    <h1>My new cv</h1>
   </b-container>
 </template>
 
