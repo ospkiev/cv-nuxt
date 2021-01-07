@@ -1,5 +1,10 @@
 export default {
   mode: 'spa',
+  target: 'static',
+  ssr: false,
+  router: {
+    base: '/cv_nuxt/',
+  },
   head: {
     title: 'cv',
     meta: [

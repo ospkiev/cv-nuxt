@@ -8,7 +8,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lintfix": "eslint --ext .js,.vue --fix --ignore-path  .gitignore ."
+    "lintfix": "eslint --ext .js,.vue --fix --ignore-path  .gitignore .",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
@@ -29,6 +30,7 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": ">=4.0.1",
     "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-vue": "^5.2.2"
+    "eslint-plugin-vue": "^5.2.2",
+    "push-dir": "^0.4.1"
   }
 }
