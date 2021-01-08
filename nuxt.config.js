@@ -1,6 +1,5 @@
 export default {
-  mode: 'spa',
-  target: 'static',
+  target: 'server',
   ssr: false,
   router: {
     base: '/cv_nuxt/',
