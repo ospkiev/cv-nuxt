@@ -1,6 +1,5 @@
 export default {
   target: 'server',
-  ssr: false,
   router: {
     base: '/cv_nuxt/',
   },
