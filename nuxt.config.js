@@ -1,7 +1,7 @@
 export default {
   target: 'static',
   router: {
-    base: '/cv_nuxt/',
+    base: '/cv-nuxt/',
   },
   head: {
     title: 'cv',
